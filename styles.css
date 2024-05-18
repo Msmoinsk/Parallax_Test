@@ -1,0 +1,58 @@
+html ,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #666;
+}
+.pimg1{
+    background-image: url(images/railway\ track\ in\ a\ forest\ 4k\ hd\ wallpaper.jpeg);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(images/1366x768\ HD\ Wallpapers\ -\ Wallpaper\ Cave.jpeg);
+    min-height: 500px;
+}
+.pimg3{
+    background-image: url(images/Bamboo\ Forest\ In\ Kyoto\ Japan\ _\ 4K\ Ultra\ HD\ Wallpaper\ _\ Bamboo\ Forest\ 8k\ HD\ Wallpaper\ _\ Japan\ 8k.jpeg);
+    min-height: 500px;
+}
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textbg{
+    background-color: #313534;
+    font-weight: bold;
+    color: #fff;
+    padding: 20px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 100%);
+    
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-ligth{
+    background-color: #f4f4f4; 
+    color: #666;
+}
+.section-dark{
+    background-color: #282e28;
+    color: #ddd;
+}
